@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Personal Blog - Udacity Project</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" >
+    <link rel="apple-touch-icon-precomposed" media="screen and (resolution: 326dpi)" href="apple-touch-icon-114x114.png" />
+</head>
+<body>
+<main>
+
+    <!-- <html-include src="includes/header-home.html"></html-include> -->
+
+     <header>
+         <i class="mobile-btn" onclick="openSlideMenu()"><img src="images/hamburger.svg" /></i>
+         <div>
+         <nav class="main-nav" id="slide-menu">
+            <i class="close-btn" onclick="closeSlideMenu()">&times;</i>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Contact</a></li>
+             </ul>
+         </nav>
+
+         <nav class="social-nav">
+            <ul>
+                <li><a href="#"><img src="images/github-icon.svg" alt="Github Icon" /></a></li>
+                <li><a href="#"><img src="images/instagram-icon.svg" alt="Instagram Icon" /></a></li>
+            </ul>
+        </nav>
+    </div><!-- .main-nav-->
+                 <div class="logo">
+                    <a href="index.html"><img src="images/logo.svg" alt="My Travels logo" /></a> 
+                    <p>My Personal Blog</p>
+                 </div><!-- .logo -->
+
+     </header><!-- .header -->
+
+     <div class="container">
+         <section class="intro">
+             <article>
+             <h1>Welcome!</h1>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+            </article>
+         </section>
+         <div class="posts">
+         <div class="row">
+            <div>
+                <div class="content-area">
+                    <article>
+                    <h2>Post Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloret.</p>
+
+                    <a href="post-page-1.html"><button>Read More</button></a>
+
+                    <span class="post-date">Posted on March, 20 2020</span>
+                </article>
+                </div>
+            </div>
+            <div class="image-container one">
+                <div class="image-area">
+                    <img src="images/beach-image-m.png" alt="Beach" />
+                </div>
+            </div>
+        </div><!-- .row -->
+        <div class="row">
+            <div class="image-container two">
+                <div class="image-area">
+                    <img src="images/food-image-m.png" alt="Beach" />
+                </div>
+            </div>
+            <div>
+                <div class="content-area">
+                    <article>
+                    <h2>Post Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloret.</p>
+
+                    <a href="post-page-2.html"><button>Read More</button></a>
+
+                    <span class="post-date">Posted on March, 20 2020</span>
+                </article>
+                </div>
+            </div>
+        </div><!-- .row -->
+        <div class="row">
+            <div>
+                <div class="content-area">
+                    <article>
+                    <h2>Post Title</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloret.</p>
+
+                    <a href="post-page-3.html"><button>Read More</button></a>
+
+                    <span class="post-date">Posted on March, 20 2020</span>
+                </article>
+                </div>
+            </div>
+            <div class="image-container three">
+                <div class="image-area">
+                    <img src="images/waterfall-image-m.png" alt="Beach" />
+                </div>
+            </div>
+        </div><!-- .row -->
+    </div><!-- .posts -->
+
+     </div><!-- .container-->
+     <footer>
+          <p>&copy2020. My Personal Blog</p>
+     </footer>
+</main>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
