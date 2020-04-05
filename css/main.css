@@ -315,6 +315,7 @@ button:hover {
 .close-btn {
   position: absolute;
   font-size: 50px;
+  font-style: normal;
   color: white;
   padding: 30px;
   z-index: 999;
@@ -453,6 +454,13 @@ button:hover {
 }
 
 @media screen and (max-width: 650px ) {
+  h1  {
+    font-size: 190%;
+  }
+
+  h2  {
+    font-size: 150%;
+  }
 
   header {
     width: 100%;
@@ -529,16 +537,12 @@ button:hover {
     height: auto;
   }
 
-  h1  {
-    font-size: 180%;
-  }
-
   #slide-menu {
     top: -120%;
     transition: .2s;
 
 }
-
+}
 @media screen and (max-width: 815px ) {
 
   .row {
@@ -573,7 +577,7 @@ button:hover {
 .left-col {
   margin-bottom: 60px;
 }
-
+}
 @media screen and (max-width: 940px ) {
 
   .row .content-area {
