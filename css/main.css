@@ -1,3 +1,7 @@
+@import 'header.css';
+@import 'nav.css';
+@import 'pagination.css';
+
 /* RESET */
 html,
 body,
@@ -264,45 +268,6 @@ button:hover {
   border: 0;
   border-bottom: solid 2px #2A1B46 !important;
   padding: 20px 10px 20px 40px;
-}
-
-/* Pagination */
-.pagination {
-  padding: 50px 0;
-  display: block;
-}
-.pagination ul {
-  margin:0;
-  padding:0;
-  display: block;
-  text-align: center;
-}
-.pagination li {
-  margin:0;
-  padding:10px 30px;
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
-
-}
-
-.pagination li a {
-  color: #2A1B46;
-
-}
-
-.pagination li.right {
-  border-radius: 0 100px 100px 0;
-  border: solid 1px #2A1B46;
-}
-.pagination li.left {
-  border-radius: 100px 0 0 100px;
-  border: solid 1px #2A1B46;
-  margin-right: -4px;
-}
-
-.pagination li.active a {
-  color: #288CF0
 }
 
 figure {
