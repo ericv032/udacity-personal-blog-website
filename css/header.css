@@ -1,0 +1,104 @@
+/* HEADER
+---------------------------------- */
+header  {
+    background-image: url('../images/hero-image.png');
+    position: relative;
+    background-position: bottom center;
+    background-size: cover;
+    max-width: 100%;
+    height: 592px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header.header-sub {
+    position: relative;
+    background-image: none;
+    background-color: #2A1B46;
+    height: 133px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .logo {
+    position: absolute;
+    margin: 0 auto;
+    width: 300px;
+    top:27%;
+    right:0;
+    left:0;
+  }
+  
+  header.header-sub .logo {
+    position: absolute;
+    width: 100px;
+    top:15px;
+    left:40px;
+    margin:0;
+  }
+  
+  header.header-sub .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+  .logo p {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+  }
+
+
+  @media screen and (max-width: 650px ) {
+
+  header {
+    width: 100%;
+    height: 350px;
+    transition: all .2s;
+  }
+
+  .logo {
+    margin: 0 auto;
+    right:0;
+    left:0;
+    transition: all .2s ease-in-out;
+  }
+
+  .logo p {
+  font-size: 160%;
+  }
+
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+
+  header.header-sub {
+    width: 100%;
+    height: 95px;
+  }
+
+  header.header-sub .logo {
+    margin: 0 auto;
+    top: 5px;
+    right:0;
+    left:0;
+    width: 80px;
+  }
+
+  header.header-sub .logo img {
+    width:80px;
+    height: auto;
+  }
+
+  #slide-menu {
+    top: -120%;
+    transition: .2s;
+
+}
+
+  }
